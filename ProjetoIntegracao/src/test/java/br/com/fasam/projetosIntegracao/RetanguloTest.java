@@ -31,9 +31,9 @@ public class RetanguloTest extends TestCase {
     // TODO add test methods here. The name must begin with 'test'. For example:
     public void testArea() {
         Retangulo retangulo = new Retangulo(3, 4);
-        assertEquals(12, (int) retangulo.Area());
-        assertNotSame(30, (int) retangulo.Area());
-        assertEquals(14, (int) retangulo.Perimetro());
+        assertEquals(12, (int) retangulo.area());
+        assertNotSame(30, (int) retangulo.area());
+        assertEquals(14, (int) retangulo.perimetro());
         assertNotNull("OK", retangulo);
         
     }
