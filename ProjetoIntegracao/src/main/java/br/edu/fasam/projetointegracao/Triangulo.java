@@ -2,14 +2,19 @@ package br.edu.fasam.projetointegracao;
 
 public class Triangulo {
 
-    private float lado;
     private float area;
     private float perimetro;
-    private Integer lado1;
-    private Integer lado2;
-    private Integer lado3;
+    private float lado1;
+    private float lado2;
+    private float lado3;
+    
+    public Triangulo (float lado1, float lado2, float lado3){
+        this.lado1 = lado1;
+        this.lado2 = lado2;
+        this.lado3 = lado3;
+    }
 
-    public Integer getLado1() {
+    public float getLado1() {
         return lado1;
     }
 
@@ -17,7 +22,7 @@ public class Triangulo {
         this.lado1 = lado1;
     }
 
-    public Integer getLado2() {
+    public float getLado2() {
         return lado2;
     }
 
@@ -25,7 +30,7 @@ public class Triangulo {
         this.lado2 = lado2;
     }
 
-    public Integer getLado3() {
+    public float getLado3() {
         return lado3;
     }
 
