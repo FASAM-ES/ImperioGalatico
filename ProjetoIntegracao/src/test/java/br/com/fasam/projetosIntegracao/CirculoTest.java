@@ -30,12 +30,12 @@ public class CirculoTest extends TestCase {
     
     public void testCalculaAreaCirculo(){
         Circulo circulo = new Circulo(5);
-        assertEquals(21.98, (double) circulo.AreaCirculo() );
+        assertEquals(78.5, (double) circulo.AreaCirculo() );
     }
     
     public void testCalculaPerimetroCirculo(){
         Circulo circulo = new Circulo(5);
-        assertEquals(31.4, (double) circulo.PerimetroCirculo() );
+        assertEquals(31.4, (double) ((int) (circulo.PerimetroCirculo()*100))/100 );
     }
     // TODO add test methods here. The name must begin with 'test'. For example:
     // public void testHello() {}
