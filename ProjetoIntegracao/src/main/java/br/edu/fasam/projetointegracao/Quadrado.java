@@ -13,6 +13,10 @@ public class Quadrado {
     private Integer area;
     private Integer perimetro;
     private Integer lado;
+    
+    public Quadrado(Integer lado){
+        this.lado = lado;
+    }
 
     public Integer getArea() {
         return area;

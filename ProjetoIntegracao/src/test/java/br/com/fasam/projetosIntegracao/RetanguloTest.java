@@ -4,16 +4,17 @@
  * and open the template in the editor.
  */
 package br.com.fasam.projetosIntegracao;
-import br.edu.fasam.projetointegracao.Quadrado;
+
+import br.edu.fasam.projetointegracao.Retangulo;
 import junit.framework.TestCase;
 
 /**
  *
  * @author Alysson
  */
-public class QuadradoTest extends TestCase {
+public class RetanguloTest extends TestCase {
     
-    public QuadradoTest(String testName) {
+    public RetanguloTest(String testName) {
         super(testName);
     }
     
@@ -29,8 +30,8 @@ public class QuadradoTest extends TestCase {
 
     // TODO add test methods here. The name must begin with 'test'. For example:
     public void testArea() {
-        Quadrado quadrado = new Quadrado(5);
-        assertEquals(25, (int) quadrado.Area());
-        assertNotSame(30, (int) quadrado.Area());
+        Retangulo retangulo = new Retangulo(3, 4);
+        assertEquals(12, (int) retangulo.Area());
+        assertNotSame(30, (int) retangulo.Area());
     }
 }

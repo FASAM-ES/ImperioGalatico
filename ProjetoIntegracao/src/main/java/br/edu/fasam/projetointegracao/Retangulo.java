@@ -14,6 +14,11 @@ public class Retangulo {
     private Integer altura;
     private Integer area;
     private Integer perimetro;
+    
+    public Retangulo(Integer base, Integer altura){
+        this.base = base;
+        this.altura = altura;
+    }
 
     public Integer getBase() {
         return base;
