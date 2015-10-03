@@ -42,11 +42,11 @@ public class Quadrado {
         this.lado = lado;
     }
     
-    public Integer Area(){
+    public Integer areaQuadrado(){
         return lado * lado;        
     }
     
-    public Integer Perimetro(){
+    public Integer perimetroQuadrado(){
         return 4 * lado;
     }
     
