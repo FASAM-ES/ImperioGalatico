@@ -56,11 +56,11 @@ public class Retangulo {
         this.perimetro = perimetro;
     }
     
-    public Integer Area(){
+    public Integer area(){
         return base * altura;    
     }
     
-    public Integer Perimetro(){
+    public Integer perimetro(){
         return 2 * base + 2 * altura;
     }
 }
