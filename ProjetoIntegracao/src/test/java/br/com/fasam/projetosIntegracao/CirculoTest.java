@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.edu.fasam.projetointegracao;
+package br.com.fasam.projetosIntegracao;
 
+import br.edu.fasam.projetointegracao.Circulo;
 import junit.framework.TestCase;
 
 /**

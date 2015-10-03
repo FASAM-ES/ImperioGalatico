@@ -1,6 +1,7 @@
 
-package br.edu.fasam.projetointegracao;
+package br.com.fasam.projetosIntegracao;
 
+import br.edu.fasam.projetointegracao.Triangulo;
 import junit.framework.TestCase;
 
 /**
