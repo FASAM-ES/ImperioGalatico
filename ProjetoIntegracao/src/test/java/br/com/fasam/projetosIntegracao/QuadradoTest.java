@@ -32,5 +32,6 @@ public class QuadradoTest extends TestCase {
         Quadrado quadrado = new Quadrado(5);
         assertEquals(25, (int) quadrado.Area());
         assertNotSame(30, (int) quadrado.Area());
+        assertEquals(20, (int) quadrado.Perimetro());
     }
 }
