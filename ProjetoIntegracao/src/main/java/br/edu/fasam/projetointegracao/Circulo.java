@@ -13,8 +13,12 @@ public class Circulo {
     private Integer area;
     private Integer perimetro;
     private Integer raio;
+
+    public Circulo(Integer raio) {
+        this.raio = raio;
+    }
     
-     public Integer getArea() {
+    public Integer getArea() {
         return area;
     }
 
