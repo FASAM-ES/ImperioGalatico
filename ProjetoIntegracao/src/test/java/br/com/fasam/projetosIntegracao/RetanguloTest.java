@@ -34,5 +34,7 @@ public class RetanguloTest extends TestCase {
         assertEquals(12, (int) retangulo.Area());
         assertNotSame(30, (int) retangulo.Area());
         assertEquals(14, (int) retangulo.Perimetro());
+        assertNotNull("OK", retangulo);
+        
     }
 }
