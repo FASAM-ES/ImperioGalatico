@@ -10,35 +10,35 @@ package br.edu.fasam.projetointegracao;
  * @author Angelita
  */
 public class Circulo {
-    private Integer area;
-    private Integer perimetro;
-    private Integer raio;
+    private double area;
+    private double perimetro;
+    private double raio;
 
-    public Circulo(Integer raio) {
+    public Circulo(double raio) {
         this.raio = raio;
     }
     
-    public Integer getArea() {
+    public double getArea() {
         return area;
     }
 
-    public void setArea(Integer area) {
+    public void setArea(double area) {
         this.area = area;
     }
 
-    public Integer getPerimetro() {
+    public double getPerimetro() {
         return perimetro;
     }
 
-    public void setPerimetro(Integer perimetro) {
+    public void setPerimetro(double perimetro) {
         this.perimetro = perimetro;
     }
 
-    public Integer getRaio() {
+    public double getRaio() {
         return raio;
     }
 
-    public void setRaio(Integer raio) {
+    public void setRaio(double raio) {
         this.raio = raio;
     }
     
@@ -47,6 +47,6 @@ public class Circulo {
     }
     
     public double AreaCirculo() {
-        return 3.14 * (raio ^ 2);
+        return 3.14 * (raio * raio);
     }
 }
