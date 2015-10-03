@@ -19,6 +19,10 @@ public class Retangulo {
         this.base = base;
         this.altura = altura;
     }
+    
+    public Retangulo(){
+        
+    }
 
     public Integer getBase() {
         return base;
