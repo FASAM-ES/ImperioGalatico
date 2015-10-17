@@ -28,7 +28,7 @@ public class RetanguloTest extends TestCase {
         super.tearDown();
     }
 
-    // TODO add test methods here. The name must begin with 'test'. For example:
+    // Rotina responsável por calcular a área
     public void testArea() {
         Retangulo retangulo = new Retangulo(3, 4);
         assertEquals(12, (int) retangulo.area());
